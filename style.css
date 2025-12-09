@@ -1,0 +1,78 @@
+/* 기본 스타일 */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0; /* 배경색을 연한 회색으로 설정 */
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+        }
+
+        a{
+          margin-bottom: 5px;
+        }
+
+        /* 컨테이너 - 모바일 화면 중앙 정렬 및 최대 너비 설정 */
+        .container {
+            width: 100%;
+            max-width: 600px; /* PC에서도 너무 넓어지지 않도록 제한 */
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        /* 프로필 이미지 */
+        .profile-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border: 3px solid #fff; /* 흰색 테두리로 강조 */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+        }
+
+        /* 사용자 이름/채널 이름 */
+        .username {
+            font-size: 1.5em;
+            font-weight: 600;
+            margin-bottom: 30px;
+            color: #2c3e50;
+        }
+
+        /* 링크 버튼 스타일 */
+        .link-button {
+            display: block;
+            background-color: #3498db; /* 버튼 배경색 (인스타 블루 톤) */
+            color: white;
+            padding: 15px;
+            margin: 15px 0;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 1.1em;
+            font-weight: 500;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
+            border: none;
+        }
+
+        /* 마우스 오버(Hover) 시 효과 */
+        .link-button:hover {
+            background-color: #2980b9; /* 약간 더 어두운 색 */
+            transform: translateY(-2px); /* 살짝 위로 이동 */
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        .icon{
+          width: 20px;
+          height: 20px;
+        }
+
+        /* 푸터 또는 추가 정보 */
+        .footer {
+            margin-top: 40px;
+            font-size: 0.8em;
+            color: #7f8c8d;
+        }
