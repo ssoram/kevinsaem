@@ -11,10 +11,6 @@
             min-height: 100vh;
         }
 
-        a{
-          margin-bottom: 5px;
-        }
-
         /* 컨테이너 - 모바일 화면 중앙 정렬 및 최대 너비 설정 */
         .container {
             width: 100%;
